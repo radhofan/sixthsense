@@ -1,10 +1,10 @@
 ### NOTE: THIS REPO IS INTENDED AS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE A TERMINAL IN EITHER TROVI/BINDER
 ### THIS README.MD MAY HAVE MORE INSTRUCTIONS THAN THE ORIGINAL REPO TO ENSURE PERFECT REPLICATION
-### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/6cbb4948-da03-44c7-b139-e2d086e26094
+### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/7b5e006f-97de-4a5a-becb-5d265c1a92be
 ### REPRODUCE THIS REPO IN BINDER VIA THIS LINK: https://mybinder.org/ 
-    - GitHub Repository: `[Insert GitHub Repo Link Here]`  
-    - Notebook File (`.ipynb`):** `[Insert Notebook File Name Here]`  
-### ORIGINAL REPO LINK: https://github.com/seal-research/gluetest
+    - GitHub Repository : `https://github.com/radhofan/sixthsense.git`  
+    - Notebook File : `reproduce.ipynb`
+### ORIGINAL REPO LINK: https://github.com/uiuc-arc/sixthsense
 
 ## SixthSense
 
