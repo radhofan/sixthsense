@@ -1,11 +1,9 @@
-### NOTE: THIS REPO IS INTENDED AS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE A TERMINAL IN EITHER TROVI/BINDER
+### NOTE: THIS REPO IS INTENDED AS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE TROVI
 ### THIS README.MD MAY HAVE MORE INSTRUCTIONS THAN THE ORIGINAL REPO TO ENSURE PERFECT REPLICATION
-### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/7b5e006f-97de-4a5a-becb-5d265c1a92be
-### REPRODUCE THIS REPO IN BINDER VIA THIS LINK: https://mybinder.org/ 
-    - GitHub Repository : `https://github.com/radhofan/sixthsense.git`  
-    - Notebook File : `reproduce.ipynb`
+### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://www.chameleoncloud.org/experiment/share/7b5e006f-97de-4a5a-becb-5d265c1a92be
+### YOU CAN REPRODUCE EITHER INSIDE THE TERMINAL OR RUN THE REPRODUCE.IPYNB FILE
 ### ORIGINAL REPO LINK: https://github.com/uiuc-arc/sixthsense
-
+ 
 ## SixthSense
 
 This repository contains the source code of our paper: [SixthSense:
