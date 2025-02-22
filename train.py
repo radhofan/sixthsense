@@ -185,12 +185,12 @@ def predict(clf, X_test, Y_test, weighted=False, allpreds=False):
     for ind in range(0, len(X_test.index)):
         preds[X_test.index[ind]]=[predictions[ind], Y_test[ind]]
 
-    with open('results/'+args.saveas.split('/')[-1]+'_preds.txt', 'w') as res:
+    with open('sixthsense/results/'+args.saveas.split('/')[-1]+'_preds.txt', 'w') as res:
         s=json.dumps(preds, default=default)
         #s=jsonpickle.encode(d)
         res.write(s)
         
-    with open('models/' + args.saveas.split('/')[-1]+'.pickle', 'wb') as m:
+    with open('sixthsense/models/' + args.saveas.split('/')[-1]+'.pickle', 'wb') as m:
         pickle.dump(clf, m)
         print("saved model")
         
