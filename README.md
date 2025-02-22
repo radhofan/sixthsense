@@ -1,7 +1,7 @@
 ### NOTE: THIS REPOSITORY IS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE CHAMELEON TROVI
 #### Reproduce this experiment via reproduce.ipynb
 #### This experiment has been modified to ensure perfect replication
-#### Reproduce this repository in Chameleon Trovi here: https://www.chameleoncloud.org/experiment/share/7b5e006f-97de-4a5a-becb-5d265c1a92be
+#### Reproduce this repository in Chameleon Trovi here: 
 #### Original repository link: https://github.com/uiuc-arc/sixthsense
 
 ## SixthSense
@@ -10,15 +10,6 @@ This repository contains the source code of our paper: [SixthSense:
 Debugging Convergence Problems in Probabilistic
 Programs via Program Representation Learning](https://saikatdutta.web.illinois.edu/papers/sixthsense-fase22.pdf) 
 published at FASE 2022 conference.
-
-## Set up Trovi Project (if using trovi) :
-
-cd into correct working directory
-
-Deactivate default conda trovi environment
-```bash
-conda deactivate
-```
 
 ### Installation
 
@@ -30,17 +21,8 @@ Installation Steps:
 - Setup Directories:
 `mkdir -p plots models results`
 - Download the csv files from [Zenodo](https://zenodo.org/record/6388301)
--We will download the csvs and extract it here :
-```bash
-wget -O csvs/csvs.tar.gz "https://zenodo.org/record/6388301/files/csvs.tar.gz?download=1"
-tar -xzvf csvs/csvs.tar.gz -C csvs --strip-components=1
-```
 
 ### Running SixthSense
-
-- We will use these settings for the sake of reproducing this paper, we will run for a model class and get prediction scores :
-
-`python train.py -f csvs/lrm_features.csv -l csvs/lrm_metrics.csv -a rf -m rhat_min -suf avg -bw -plt -saveas plots/results_rhat_min_lrm.png -keep _ast_ dt_ var_min var_max data_size -st -tname lightspeed -cv -ignore_vi`
 
 - To training SixthSense for a model class and get prediction scores, run :
 
