@@ -17,7 +17,7 @@ source ~/.bashrc  # Reload shell config
 eval "$(mamba shell hook --shell=bash)"
 
 # Create and activate 'flex' environment
-mamba install python=latest -c conda-forge
+mamba install python=3.12 -c conda-forge
 mamba activate sixthsense
 
 # Installation
@@ -26,7 +26,7 @@ mkdir -p sixthsense/plots sixthsense/models sixthsense/results
 
 # Download csvs
 wget -O sixthsense/csvs/csvs.tar.gz "https://zenodo.org/record/6388301/files/csvs.tar.gz?download=1"
-tar -xzvf sixthsense/csvs/csvs.tar.gz -C csvs --strip-components=1
+tar -xzvf sixthsense/csvs/csvs.tar.gz -C sixthsense/csvs --strip-components=1
 
 # Run SixthSense
 python sixthsense/train.py -f sixthsense/csvs/lrm_features.csv -l sixthsense/csvs/lrm_metrics.csv -a rf -m rhat_min -suf avg -bw -plt -saveas sixthsense/plots/results_rhat_min_lrm.png -keep _ast_ dt_ var_min var_max data_size -st -tname lightspeed -cv -ignore_vi
