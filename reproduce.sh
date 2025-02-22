@@ -21,7 +21,7 @@ mamba install python=latest -c conda-forge
 mamba activate sixthsense
 
 # Installation
-pip install -r requirements.txt
+pip install -r sixthsense/requirements.txt
 mkdir -p sixthsense/plots sixthsense/models sixthsense/results
 
 # Download csvs
