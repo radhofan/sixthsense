@@ -1,9 +1,9 @@
-### NOTE: THIS REPO IS INTENDED AS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE TROVI
-### THIS README.MD MAY HAVE MORE INSTRUCTIONS THAN THE ORIGINAL REPO TO ENSURE PERFECT REPLICATION
-### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://www.chameleoncloud.org/experiment/share/7b5e006f-97de-4a5a-becb-5d265c1a92be
-### YOU CAN REPRODUCE EITHER INSIDE THE TERMINAL OR RUN THE REPRODUCE.IPYNB FILE
-### ORIGINAL REPO LINK: https://github.com/uiuc-arc/sixthsense
- 
+### NOTE: THIS REPOSITORY IS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE CHAMELEON TROVI
+#### Reproduce this experiment via reproduce.ipynb
+#### This experiment has been modified to ensure perfect replication
+#### Reproduce this repository in Chameleon Trovi here: https://www.chameleoncloud.org/experiment/share/7b5e006f-97de-4a5a-becb-5d265c1a92be
+#### Original repository link: https://github.com/uiuc-arc/sixthsense
+
 ## SixthSense
 
 This repository contains the source code of our paper: [SixthSense:
