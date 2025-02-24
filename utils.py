@@ -32,7 +32,7 @@ def default(o):
 def write_csv(results, thresholds, metric_name, args):
     split_results = np.split(np.array(results), len(thresholds))
     keys = results[0].keys()
-    if not os.path.exists('results/results.csv'):
+    if not os.path.exists('peobfuzz/results/results.csv'):
         s = 'dataset,algorithm,metric,threshold' + ',' + ','.join(keys) + '\n'
     else:
         s = ''
@@ -44,7 +44,7 @@ def write_csv(results, thresholds, metric_name, args):
         s += ','.join([str(x) for x in cols]) + '\n'
         n += 1
 
-    with open('results/'+args.saveas.split('/')[1]+'.txt', 'w') as res:
+    with open('probfuzz/results/'+args.saveas.split('/')[1]+'.txt', 'w') as res:
         d = {'results' : results, 'thresholds': thresholds, 'metric_name' : metric_name}
         s=json.dumps(d, default=default)
         res.write(s)
