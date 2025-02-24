@@ -32,7 +32,7 @@ def default(o):
 def write_csv(results, thresholds, metric_name, args):
     split_results = np.split(np.array(results), len(thresholds))
     keys = results[0].keys()
-    if not os.path.exists('peobfuzz/results/results.csv'):
+    if not os.path.exists('probfuzz/results/results.csv'):
         s = 'dataset,algorithm,metric,threshold' + ',' + ','.join(keys) + '\n'
     else:
         s = ''
