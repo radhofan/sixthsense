@@ -1,7 +1,7 @@
 ### NOTE: THIS REPOSITORY IS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE CHAMELEON TROVI
 #### Reproduce this experiment via reproduce.ipynb
 #### This experiment has been modified to ensure perfect replication
-#### Reproduce this repository in Chameleon Trovi here: 
+#### Reproduce this repository in Chameleon Trovi here: https://www.chameleoncloud.org/experiment/share/7b9ea360-ca57-4862-98a7-62c850c50a77
 #### Original repository link: https://github.com/uiuc-arc/sixthsense
 
 ## SixthSense
